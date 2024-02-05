@@ -5,6 +5,7 @@ export interface stock {
     color: string;
     quantity: number;
     promotion: string;
+    imageUrl: string;
 }
 
 export function getStocksSubset(stocks: stock[], limit: number, offset: number): stock[] {
