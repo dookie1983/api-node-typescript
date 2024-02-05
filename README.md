@@ -1,22 +1,33 @@
-# typescript-app
+# API Node Typescript
+This repository provide node api for integration with front end implement by typescript.
 
-Empty app for kata or practice typescript with node.js and jest.
 
 Pre-riquisites
+
 1. Node.JS
 2. Typescript
 3. Jest
-4. Visual Studio Code. 
+4. Visual Studio Code.
 
 to install package, run...
+
 ```
 npm install
 ```
-to run app (that should not have anything accept print 'Hello, TypeScript.')
+
+to run API
+
 ```
 npm run
 ```
+
 to run test (it will include watch and code coverage), run...
+
 ```
 npm test
+```
+to call API with port 3000
+
+```
+Ex. http://localhost:3000/stocks
 ```
