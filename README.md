@@ -30,4 +30,5 @@ to call API with port 3000
 
 ```
 Ex. http://localhost:3000/stocks
+    http://localhost:3000/stocks?limit=0&offset=1
 ```

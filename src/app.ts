@@ -5,14 +5,44 @@ const app = express();
 const port = 3000;
 
 const allStock: stock[] = [
-    { id: 1, name: 'stock 1', price: 19.99, description: 'Description for stock 1' },
-    { id: 2, name: 'stock 2', price: 29.99, description: 'Description for stock 2' },
-    // Add more stocks as needed
+    {
+        "id": 1,
+        "brand": "Apple",
+        "model": "iPhone 15 128GB",
+        "color": "GOLD",
+        "quantity": 100
+    },
+    {
+        "id": 2,
+        "brand": "Apple",
+        "model": "iPhone 15 128GB",
+        "color": "SILVER",
+        "quantity": 200
+    },
+    {
+        "id": 3,
+        "brand": "Apple",
+        "model": "iPhone 15 128GB",
+        "color": "SPACE GREY",
+        "quantity": 300
+    },
+    {
+        "id": 4,
+        "brand": "Apple",
+        "model": "iPhone 15 128GB",
+        "color": "GOLD",
+        "quantity": 400
+    },
+    {
+        "id": 5,
+        "brand": "Apple",
+        "model": "iPhone 15 128GB",
+        "color": "SILVER",
+        "quantity": 500
+    }
 ];
 
 app.get('/stocks', (req, res) => {
-    // http://localhost:3000/stocks
-    // http://localhost:3000/stocks?limit=0&offset=1
     const limit = parseInt(req.query.limit as string) || 10;
     const offset = parseInt(req.query.offset as string) || 0;
 

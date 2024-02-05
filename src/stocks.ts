@@ -1,8 +1,9 @@
 export interface stock {
     id: number;
-    name: string;
-    price: number;
-    description: string;
+    brand: string;
+    model: string;
+    color: string;
+    quantity: number;
 }
 
 export function getStocksSubset(stocks: stock[], limit: number, offset: number): stock[] {
