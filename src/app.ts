@@ -11,35 +11,40 @@ const allStock: stock[] = [
         "brand": "Apple",
         "model": "iPhone 15 128GB",
         "color": "GOLD",
-        "quantity": 100
+        "quantity": 100,
+        "promotion": "ลด 1,000 บาท เฉพาะ iPhone 15 Pro (128GB / 256GB / 512GB) เครื่องเปล่าเท่านั้น",
     },
     {
         "id": 2,
         "brand": "Apple",
         "model": "iPhone 15 256GB",
         "color": "SILVER",
-        "quantity": 200
+        "quantity": 200,
+        "promotion": "ลด 1,000 บาท เฉพาะ iPhone 15 Pro (128GB / 256GB / 512GB) เครื่องเปล่าเท่านั้น",
     },
     {
         "id": 3,
         "brand": "Apple",
         "model": "iPhone 15 512GB",
         "color": "SPACE GREY",
-        "quantity": 300
+        "quantity": 300,
+        "promotion": "ลด 1,000 บาท เฉพาะ iPhone 15 Pro (128GB / 256GB / 512GB) เครื่องเปล่าเท่านั้น",
     },
     {
         "id": 4,
         "brand": "Apple",
         "model": "iPhone 15 Pro 128GB",
         "color": "GOLD",
-        "quantity": 400
+        "quantity": 400,
+        "promotion": "ลด 1,000 บาท เฉพาะ iPhone 15 Pro (128GB / 256GB / 512GB) เครื่องเปล่าเท่านั้น",
     },
     {
         "id": 5,
         "brand": "Apple",
         "model": "iPhone 15 Pro 256GB",
         "color": "SILVER",
-        "quantity": 500
+        "quantity": 500,
+        "promotion": "ลด 1,000 บาท เฉพาะ iPhone 15 Pro (128GB / 256GB / 512GB) เครื่องเปล่าเท่านั้น",
     }
 ];
 
